@@ -1,0 +1,63 @@
+// CSS for  Timeline.js styles
+#timeline-embed {
+  z-index: 1;
+}
+#timeline-embed .tl-slide .tl-slide-background {
+    opacity: .3;
+}
+.tl-slidenav-previous .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-description {
+    opacity: .8;
+}
+#timeline-embed .tl-text {
+  padding: 0 0 0 20px;
+}
+#timeline-embed .tl-text .tl-headline-date, .tl-text h3.tl-headline-date, .tl-slidenav-description {
+  display: none;
+}
+#timeline-embed.tl-timeline h4, #timeline-embed.tl-timeline h5, #timeline-embed.tl-timeline h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+#timeline-embed.tl-timeline p {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+#timeline-embed.tl-timeline li {
+    font-size: 15px;
+}
+.tl-timenav {
+    background-color: #26406c;
+}
+.tl-timemarker .tl-timemarker-content-container {
+    background-color: #7ab8cb;
+    border-color: #11213b;
+}
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container, .tl-timemarker:hover .tl-timemarker-content-container {
+    background-color: #fbbd2a;
+    color: #26406c;
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline, .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+    color: #26406c;
+}
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-], .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"] {
+    color: #26406c;
+}
+.tl-menubar-button {
+    background-color: #11213b;
+    color: #fff;
+}
+.tl-menubar-button:hover {
+    background-color: #fbbd2a;
+    color: #26406c;
+}
+.tl-timeaxis {
+    color: #26406c;
+}
+.tl-timeaxis-minor .tl-timeaxis-tick:before {
+    background-color: #11213b;
+}
+
+eacubo-timeline.css
+Displaying eacubo-timeline.css.
